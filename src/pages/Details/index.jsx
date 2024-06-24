@@ -9,7 +9,9 @@ export function Details() {
       <h1>Hello, world!</h1>
       <span>Edgar Lins</span>
 
-      <Button />
+      <Button title="Login" loading />
+      <Button title="Cadastrar" />
+      <Button title="Deletar" />
     </Container>
   )
 }
