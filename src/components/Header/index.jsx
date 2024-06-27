@@ -4,8 +4,11 @@ import { Container, Profile, Logout } from "./styles";
 export function Header() {
     return (
         <Container>
-            <Profile>
-                <img src="https://github.com/edgar-lins.png" alt="Foto do usuário" />
+            <Profile to="/profile">
+                <img 
+                    src="https://github.com/edgar-lins.png" 
+                    alt="Foto do usuário" 
+                />
 
                 <div>
                     <span>Bem-vindo,</span>
