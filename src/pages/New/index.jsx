@@ -1,4 +1,5 @@
 import { Input } from '../../components/Input';
+import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Section } from '../../components/Section';
 import { Textarea } from '../../components/Textarea';
@@ -26,6 +27,15 @@ export function New() {
                         <NoteItem value="https://rocketseat.com.br" />
                         <NoteItem isNew placeholder="Novo link" />
                     </Section>
+
+                    <Section title="Marcadores">
+                        <div className="tags">
+                            <NoteItem value="react" />
+                            <NoteItem isNew placeholder="Nova tag" />
+                        </div>
+                    </Section>
+
+                    <Button title="Salvar" />
                 </Form>
             </main>
         </Container>
